@@ -1,0 +1,9 @@
+version: '3'
+services:
+  nodejs:
+    image: luis26/node-web-app2:labo5
+    container_name: laboratorio5
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+
