@@ -5,4 +5,4 @@ COPY package.json /usr/src/laboratorio5/
 RUN npm install
 COPY . /usr/src/laboratorio5
 EXPOSE 3000
-CMD [ "node", "index.js" ] 
+CMD [ "node", "index.js" ]

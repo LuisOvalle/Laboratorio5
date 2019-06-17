@@ -13,9 +13,9 @@ const app = express();
 
 
 const conn = mysql.createConnection({
-    host:'peliculadb3.c30hugurymyv.us-east-1.rds.amazonaws.com',
-    user: 'sudosu',
-    password : 'laboratorio26',
+    host:'10.5.0.5',
+    user: 'Admin',
+    password : '123',
     database: 'peliculadb'
 });
 
